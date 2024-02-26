@@ -9,6 +9,8 @@ import Ventas from './views/ventas';
 import Registro from './views/Registro';
 import "./assets/css/App.css"
 import Sidebar from './components/Sidebar';
+import "./assets/css/Sidebar.css"
+import Profile from './views/Profile';
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar />
+      <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
       <Sidebar />
       <Routes>
         <Route path='Access' element={<Access />} />
@@ -25,6 +30,7 @@ function App() {
         <Route path='Favs' element={<Favs />}/>
         <Route path='Publicar' element={<Publicar />}/>
         <Route path='Cart' element={<Cart />}/>
+        <Route path='Profile' element={<Profile />}/>
       </Routes>
       </ BrowserRouter>
     </div>

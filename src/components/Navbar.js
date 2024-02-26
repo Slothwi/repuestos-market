@@ -2,6 +2,7 @@ import { Navbar, Container } from "react-bootstrap";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/Navbar.css"
+import { ShoppingCart } from "lucide-react";
 
 
 
@@ -44,7 +45,7 @@ export default function Navigation() {
             </NavLink>
             <hr></hr>
             <NavLink to="Cart" className={setActiveClass}>
-            Carrito
+            <ShoppingCart />
             </NavLink>
         </div>
         </Container>

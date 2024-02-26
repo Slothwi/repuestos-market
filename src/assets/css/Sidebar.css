@@ -1,10 +1,10 @@
 :root {
-    --bar-width: 30px;
+    --bar-width: 40px;
     --bar-height: 8px;
     --hamburger-gap: 6px;
-    --foreground: #333;
+    --foreground: #19194b;
     --background: white;
-    --hamburger-margin: 8px;
+    --hamburger-margin: 22px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
@@ -77,3 +77,12 @@
 .hamburger-menu:has(input:checked) + .sidebar {
     translate: 0;
 }
+
+
+.profile{
+    margin-top: 615px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
