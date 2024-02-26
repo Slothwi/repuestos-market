@@ -15,7 +15,7 @@ export default function Navigation() {
         <Container>
             <Navbar.Brand>
                 <div className="img-container">
-                    <img className="carrito" src={logo} alt="repuestos" />
+                    <img className="repuestos" src={logo} alt="repuestos" />
                 </div>
             </Navbar.Brand>
         <div className="nl">
